@@ -1,0 +1,135 @@
+.ceu { 
+     width: 100%;
+     height: 60%;
+     background-image: linear-gradient(to right, #eef6f6, #666bff, #1d45bf, #0622ac, #010033, #01000a); 
+     margin: auto;
+    position: fixed;
+}
+.sol {
+     animation-timing-function: ease;
+     animation: exemplo 30s infinite;
+     border-radius: 50%;
+     width: 35px;
+     height: 35px;
+     position: fixed;
+     padding: 35px 30px 50px 50px;
+     margin: 70px 120px 80px 1%;
+     border: solid 1px;
+     border-color: #fda83f;
+     border-style: ridge;
+     filter: brightness(red);
+}
+@keyframes exemplo{
+ 0% {background-color: #f5ef47; left: 0%;}
+ 25% {background-color: #f5b356; left: 25%;}
+ 75% {background-color: #e7eca7; left: 75%;}
+ 100% {background-color: #a1a1a1; left: 100%;}
+}
+.mar{
+     width: 100%;
+     height: 35%;
+     background-image: linear-gradient( #000052, #ebebeb );
+     position: fixed;
+     margin-top: 370px;
+}
+.montanha {
+     width: 400px;
+     height: 120px;
+     background: #3df03d;
+     position: fixed;
+     margin-top: 270px;
+     border-radius: 50%/100px 100px 0 0;
+     margin-left: 30px;
+   }
+.morro {
+     width: 340px;
+     height: 100px;
+     background: #0d7d5b;
+     border-radius: 50%/95px 100px 0 0;
+     position: fixed;
+     margin-top: 30px;
+     margin-left: 310px;
+     z-index: auto;
+  
+}
+.monta {
+     width: 300px;
+     height: 300px;
+     background: #245631;
+     position: fixed;
+     margin-top: 270px;
+     border-radius: 50%/250px 100px 0 0;
+     margin-left: 60%;
+   }
+.mor {
+     background: #137c70;
+     border-radius: 50%/255px 200px 0 0;
+     position: fixed;
+     width: 350px;
+     height: 270px;
+     z-index: auto;
+     margin-left: 15%;
+}
+
+.barco {
+     width: 0;
+     height: 300px;
+     border-right: 0 solid transparent;
+     border-top: 20px solid transparent;
+     border-left: 50px solid transparent;
+     border-right: 50px solid transparent;
+     border-bottom: 50px solid ;
+   border-radius: 50%/50%  0 0 0;
+     position: fixed;
+     color: #008015;
+}
+.navegar{
+  font-size: 50px;
+  position: fixed;
+  animation-timing-function: ease;
+  animation: navegar 60s infinite;
+}
+
+@keyframes navegar{
+  from {left: 0px;}
+  to {left: 800px;}
+}
+.navio{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 300px;
+}
+.areia {
+     width: 100%;
+     height: 15%;
+     background-image: linear-gradient(#cda8f04f, #ffdf3d66);
+     position: fixed;
+     margin-top: 530px;
+}
+.gaviota{
+ position: absolute;
+ top: 80px;
+ right: 5px;
+}
+.gaviota1{
+ position: absolute;
+ top: 50px;
+ right: 100px;
+}
+.palmeira{
+ position: absolute;
+ bottom: 7px;
+  right: 5px;
+}
+.palmeira1{
+  position: absolute;
+  right: 130px;
+  bottom: 1px;
+}
+.aviao{
+ position: absolute;
+ left: 10%;
+ width: 250px;
+  height: 400px;
+}
